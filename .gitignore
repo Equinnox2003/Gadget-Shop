@@ -45,3 +45,6 @@ tmp/
 *.db
 *.db-wal
 *.db-shm
+# Exported web assets are copied under this nested dependency path by Expo.
+!/web-build/assets/node_modules/
+!/web-build/assets/node_modules/**
